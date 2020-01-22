@@ -1,0 +1,13 @@
+{
+  "mongoose":{
+    "url": "mongodb://localhost:27017/csvdata",
+    "settings": {
+      "useNewUrlParser": "true",
+      "useUnifiedTopology": "true"
+    }
+  },
+  "express":{
+    "port": "5000"
+  },
+  "multer": {"dest": "temp/"}
+}
